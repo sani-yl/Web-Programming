@@ -1,0 +1,44 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
+a:hover {
+    color: teal;
+}
+
+img{
+  width: 200px;
+  height: auto;
+  border:2px solid;
+  border-color: #855a5a;
+  border-radius: 10px;
+}
+
+table{
+  border-collapse:collapse;
+  width:60%
+}
+
+th,td{
+  border:1px solid #37a1a0;
+  padding:8px;
+  text-align: left;
+}
+
+tr:nth-child(even){
+  background-color: #eae3e3;
+}
+
+.no-bullets {
+  list-style:none;
+}
